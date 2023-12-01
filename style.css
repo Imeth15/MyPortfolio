@@ -1,0 +1,91 @@
+h1 {
+    color: white;
+}
+
+body{
+    background-color:lightblue;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.item img{
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.item img:hover{
+    transform: scale(1.2);
+}
+
+h1, .menu a{
+    color: white;
+    font-size: 25px;
+    margin-right: 150px;
+}
+
+.menu a:hover{
+    color:midnightblue;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:first-child{
+    margin-right: 10px;
+}
+
+.menu a:last-child{
+    margin-left: 10px;
+}
+
+.about-me{
+    padding: 30px;
+}
+
+.image-container img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 200px;
+    margin-left: 435px;
+}
+
+.text-container{
+    margin-left: 10px;
+}
+
+.about-me-content{
+    display: flex;
+    align-items: center;
+}
